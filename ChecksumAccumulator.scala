@@ -9,7 +9,7 @@ class ChecksumAccumulator {
 
 object ChecksumAccumulator {
   
-  private val cache = Map[Int,String]()
+  private val cache = Map[String,Int]()
 
   def calculate(s: String): Int = 
     if (cache.contains(s)) cache(s)
