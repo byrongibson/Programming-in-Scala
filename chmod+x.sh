@@ -1,3 +1,8 @@
 #!/bin/sh
 
-sudo chmod +x $1
+args="$@"
+
+for arg in $args
+do 
+    sudo chmod +x "$arg"
+done
