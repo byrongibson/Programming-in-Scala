@@ -1,3 +1,5 @@
+package chp1-9
+
 import ChecksumAccumulator.calculate
 
 object Checksummer {
